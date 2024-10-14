@@ -1,2 +1,3 @@
 # bookbot
-book analysis bot
+
+BookBot is my first project!
