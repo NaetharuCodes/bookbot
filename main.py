@@ -17,8 +17,6 @@ def count_characters(text):
             character_dict[testChar] = 1
     return character_dict
 
-
-
 def sort_on(d):
     return d["num"]
     
@@ -34,7 +32,6 @@ def character_report(character_dict_list):
     for char in character_dict_list:
         if char["char"].islower():
             print(f"The '{char['char']}' character was found {char['num']} times")
-
 
 def main():
     book = get_book_text("books/frankenstein.txt")
